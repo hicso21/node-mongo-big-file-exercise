@@ -5,8 +5,12 @@
   "repository": "https://github.com/fedenelli/node-mongo-big-file-exercise.git",
   "author": "Federico Nelli <fnelli@carbon-base.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "node --watch app.js"
+  },
   "dependencies": {
     "compression": "^1.7.4",
+    "csv-parser": "^3.2.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^6.9.0",
